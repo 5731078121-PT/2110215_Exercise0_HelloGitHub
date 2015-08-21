@@ -15,7 +15,7 @@ public class Hello {
 
 	public static String greetingMessage(){
 		// TODO Implement this method to return string "Hello GitHub".
-		return "";
+		return "Hello Github";
 	}
 	
 	public static int[] bubbleSort(int[] array){
@@ -23,15 +23,15 @@ public class Hello {
 		
 		Boolean isSwap;
 		do{
-				isSwap=false;
-				for(int i=0;i<array.length-1;i++){
-					if(array[i]<array[i+1]){
-						int a=array[i];
-						array[i]=array[i+1];
-						array[i+1]=a;
-						isSwap=true;
-						}
+			isSwap=false;
+			for(int i=0;i<array.length-1;i++){
+				if(array[i]<array[i+1]){
+					int a=array[i];
+					array[i]=array[i+1];
+					array[i+1]=a;
+					isSwap=true;
 					}
+				}
 			}while(isSwap);	
 		return array;
 	}
